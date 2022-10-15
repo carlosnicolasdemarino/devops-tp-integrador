@@ -1,0 +1,15 @@
+1. Forkear el codigo a tu cuenta
+2. Una vez creada la base de datos colocar los datos en el codigo en el archivo conexiondb.php
+3. Modificar los siguientes items que estan entre comillas dobles
+
+	$localhost = "URL DEL RDS";
+	$username = "USUARIO DEL RDS";
+	$password = "CONTRASEÑA DEL RDS";
+	$database = "NOMBRE DE LA BASE DE DATOS";
+
+4. Integrar las etapas dentro del pipeline:
+
+- importacion de script.sql
+- creacion de servidor staging
+- creacion de servidor productivo
+
