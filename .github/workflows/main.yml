@@ -21,7 +21,7 @@ jobs:
   Import_SQL:
     runs-on: ubuntu-latest
     name: MySQL Deploy to RDS
-    if: ${{ false }}
+    #if: ${{ false }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
